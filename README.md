@@ -1,5 +1,6 @@
 # py_blackjack
 Blackjack game written in Python using OOP
+
 This project is comprised of three Python files:
   1. bj_classes.py
       This file contains the defining of <Card>, <Deck>, and <Player> classes through attributes and methods used by instances of these classes.
