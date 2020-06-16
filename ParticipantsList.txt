@@ -1,0 +1,4 @@
+George	Mihai	24	Romania	890
+Deroi	Xavier	41	Franta	1020
+Joudl	Petr	38	Cehia	900
+Rosa	Ana	27	Italia	1140
