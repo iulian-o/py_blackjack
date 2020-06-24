@@ -77,74 +77,10 @@ def blackjack():
 
         print("Dealer has in his hand: " + str(dealer.hand[0]))
         print("You, " + str(playerBJ.fname) + ", have in hand: " + str(playerBJ.hand) + 
-Pull requests
-Issues
-Marketplace
-Explore
-@iulian-o
-Learn Git and GitHub without any code!
-
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-iulian-o /
-py_blackjack
-
-1
-0
-
-    0
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-py_blackjack/
-
-68
-
-        playerBJ.card_sum = 0
         " Hand value: " + str(playerBJ.card_sum))
         print("--------------------", " ", sep="\n")
 
         if dealer.card_sum == 21:
-Pull requests
-Issues
-Marketplace
-Explore
-@iulian-o
-Learn Git and GitHub without any code!
-
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-iulian-o /
-py_blackjack
-
-1
-0
-
-    0
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-
-    Settings
-
-py_blackjack/
-
-26
-
-### It's created the funtion <blackjack> that contains the game (and it's logic)
             print("Dealer has BlackJack! " + str(dealer.hand) + " You lost " + '\u2639')
             print("--------------------", " ", sep="\n")
             playerBJ.subtract_chips(betBJ)
@@ -280,7 +216,6 @@ def new_game():
         new_game()
     else:
         print("OK! Return when you have more money " + '\U0001F4B0' + '\U0001F4B0' + '\U0001F4B0')
-
 
 def start_game():
     start_bj = input(
